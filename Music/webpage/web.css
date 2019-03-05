@@ -1,7 +1,4 @@
 /*header starts here */
-
-
-
 .head {
     background-color: blueviolet;
     position: relative;
@@ -10,7 +7,7 @@
 
 /*responsive part*/
 
-@media only screen and (max-width: 480px ) {
+@media only screen and (max-width: 600px ) {
   html {
     font-size: 10px;
     height: auto;
@@ -34,7 +31,33 @@
     margin-left: 80px;
 }
 
+
 /*responsive part*/
+
+@media only screen and (min-width:601px) and (max-width:1024px)
+{
+  .log{
+    margin-left: 5vw !important;
+    height: 9vh !important;
+    width: 75vw !important;
+  }
+
+  .log .b {
+      height: 5rem !important;
+      width: 10rem !important;
+      float: left;
+      color: white;
+      font-size: 3.5vw !important;
+      font-family: sans;
+      margin-top: 2.5vh !important;
+  }
+
+  .log .a {
+      height : 5rem !important;
+      width : 5rem !important;
+      float: left;
+  }
+}
 
 @media only screen and (max-width:600px)
 {
@@ -89,6 +112,30 @@
 }
 
 /*responsive part*/
+
+
+@media only screen and (min-width:601px) and (max-width:1024px) {
+  .topright{
+    margin-left: 56vw;
+    width: 30vw;
+    height: 25vh;
+  }
+  .topright .feature {
+    margin-left: 40px;
+  }
+
+  .topright .extension {
+    margin-top: 10px;
+  }
+
+  .topright .faq {
+
+  }
+
+  .topright .docs {
+
+  }
+}
 
 @media only screen and (max-width:600px) {
   .topright{
@@ -169,6 +216,48 @@
 
 /*Code For Responsiveness*/
 
+@media only screen and (min-width:601px) and (max-width:1024px){
+  .org{
+    width: 100vw !important;
+    margin-left: 0vw !important;
+    margin-top: 14vh;
+    font-family: sans;
+    font-weight: bold;
+    color: white;
+    font-size: 4.5vw !important;
+    text-align: center;
+  }
+
+  .line1 {
+  width: 10vw;
+  height: 1vh;
+  background-color: white;
+  position: relative;
+  top: 2vh;
+  margin-top: 0vh !important;
+  margin-left: 84vw !important;
+}
+  .line2 {
+  width: 10vw;
+  height: 1vh;
+  background-color: white;
+  position: relative;
+  top: 3vh;
+  margin-top: 0vh !important;
+  margin-left: 84vw !important;
+  }
+
+.line3 {
+width: 10vw;
+height: 1vh;
+background-color: white;
+position: relative;
+top: 4vh;
+margin-top: 0vh !important;
+margin-left: 84vw !important;
+  }
+}
+
 @media only screen and (max-width:600px){
   .org{
     width: 100vw !important;
@@ -222,7 +311,137 @@ margin-left: 84vw !important;
     grid-template-rows: 150px 60px;
 }
 
+
 /*media query for Responsivenessbutton*/
+@media only screen and (min-width:801px) and (max-width:1024px){
+  .left{
+    width: 99vw;
+    height: 95vh;
+    margin-left: 0vw;
+    grid-template-areas: "x"
+                         "y"
+                         "u"
+                         "v";
+  }
+
+  .left .list1{
+    height: 40vh;
+    width: 60vw;
+    grid-area: x;
+    font-size: 4vw !important;
+    align-items: center;
+    margin-left: 10vw ;
+  }
+
+  .left .list2{
+    height: 40vh;
+    width: 60vw;
+    grid-area: y;
+    font-size: 4vw !important;
+    margin-left: 10vw;
+    margin-top: 36vh;
+  }
+
+  .left .button{
+    width: 200px;
+    height: 60px;
+    margin-top: 70vh !important;
+    margin-left: 34vw !important;
+  }
+
+  .left .button .btn1{
+    grid-area: u;
+    border: 1px solid white;
+    margin-top: 40px;
+    align-items: center;
+    width: 31vw !important;
+    height: 8vh !important;
+    margin-top: 6vh !important;
+    margin-left: 0vw !important;
+    font-size: 3.5vw !important;
+  }
+
+  .left .demo {
+    position: relative;
+    margin-top: 5vh !important;
+    margin-left: 25vw !important;
+  }
+
+  .left .demo .btn2{
+    grid-area: v;
+    width: 50vw !important;
+    height: 9vh !important;
+    margin-top: 0.1vh !important;
+    margin-left: 0vw !important;
+    font-size:4vw !important;
+  }
+}
+
+@media only screen and (min-width:601px) and (max-width:800px){
+  .left{
+    width: 99vw;
+    height: 95vh;
+    margin-left: 0vw;
+    grid-template-areas: "x"
+                         "y"
+                         "u"
+                         "v";
+  }
+
+  .left .list1{
+    height: 35vh;
+    width: 60vw;
+    grid-area: x;
+    font-size: 4vw !important;
+    align-items: center;
+    margin-left: 10vw ;
+
+  }
+
+  .left .list2{
+    height: 35vh;
+    width: 60vw;
+    grid-area: y;
+    font-size: 4vw !important;
+    margin-left: 10vw;
+    margin-top: 19vh;
+  }
+
+  .left .button{
+    width: 200px;
+    height: 60px;
+    margin-top: 50vh !important;
+    margin-left: 34vw !important;
+  }
+
+  .left .button .btn1{
+    grid-area: u;
+    border: 1px solid white;
+    margin-top: 40px;
+    align-items: center;
+    width: 31vw !important;
+    height: 8vh !important;
+    margin-top: 3vh !important;
+    margin-left: 0vw !important;
+    font-size: 4vw !important;
+  }
+
+  .left .demo {
+    position: relative;
+    margin-top: 5vh !important;
+    margin-left: 25vw !important;
+  }
+
+  .left .demo .btn2{
+    grid-area: v;
+    width: 50vw !important;
+    height: 9vh !important;
+    margin-top: 0.1vh !important;
+    margin-left: 0vw !important;
+    font-size:4vw !important;
+  }
+}
+
 
 @media only screen and (max-width:600px){
   .left{
@@ -251,13 +470,13 @@ margin-left: 84vw !important;
     grid-area: y;
     font-size: 4vw !important;
     margin-left: 10vw;
-    margin-top: 7vh;
+    margin-top: 9vh;
   }
 
   .left .button{
     width: 200px;
     height: 60px;
-    margin-top: 23vh !important;
+    margin-top: 30vh !important;
     margin-left: 34vw !important;
   }
 
@@ -365,8 +584,8 @@ margin-left: 84vw !important;
 /* Scroll Bar Starts Here*/
 .scroll{
   height: 150px;
-  width: 750px;
-  max-width: 750px;
+  width: 800px;
+  max-width: 800px;
   display: flex;
   border-radius: 8px;
   margin-left:260px;
@@ -376,16 +595,363 @@ margin-left: 84vw !important;
 }
 
 /*responsive part*/
+@media only screen and (min-width:801px) and (max-width:1024px){
+  .scroll{
+    width: 70vw !important;
+    height: 125vh;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 10;
+    margin-left: 15vw;
+    margin-top: 35vh;
+  }
+
+  .scroll .bar1{
+    flex-basis: 48vh !important;
+    width: 70vw;
+  }
+
+  .bar1 .auth1{
+    height: 11.8vh !important;
+    width: 12.8vw !important;
+    margin-left: 6.7vw !important;
+    margin-top: 8vh !important;
+    background-color: grey !important;
+    float: left !important;
+  }
+
+  .bar1 .auth2{
+    float: left !important;
+    margin-top: 8vh !important;
+    margin-left: 2vw !important;
+    font-weight: bold !important;
+    font-family: sans-serif !important;
+    color: darkblue !important;
+    font-size: 3.2vw !important;
+  }
+
+  .bar1 .auth3{
+    height: 10vh !important;
+    width: 40vw !important;
+    float: left !important;
+    margin-left: 2vw !important;
+    margin-top: -2vw !important;
+    font-size: 3vw !important;
+    font-family: sans-serif !important;
+    color: darkblue !important;
+  }
+
+  .scroll .bar2{
+    flex-basis: 48vh !important;
+    margin-left: 0vw;
+    width: 70vw;
+  }
+
+  .bar2 .member1{
+    height: 11.8vh !important;
+    width: 12.8vw !important;
+    margin-left: 6.7vw !important;
+    margin-top: 8vh !important;
+    background-color: grey !important;
+    float: left !important;
+  }
+
+  .bar2 .member2{
+    float: left !important;
+    margin-top: 8vh !important;
+    margin-left: 2vw !important;
+    font-weight: bold !important;
+    font-family: sans-serif !important;
+    color: darkblue !important;
+    font-size: 3.2vw !important;
+  }
+
+  .bar2 .member3{
+    height: 10.9vh !important;
+    width: 40vw !important;
+    float: left !important;
+    margin-left: 2vw !important;
+    margin-top: -2vw !important;
+    font-size: 3vw !important;
+    font-family: sans-serif !important;
+    color: darkblue !important;
+  }
+
+  .scroll .bar3{
+    flex-basis: 48vh !important;
+    width: 70vw;
+  }
+
+  .bar3 .console1{
+    height: 11.8vh !important;
+    width: 12.8vw !important;
+    margin-left: 6.7vw !important;
+    margin-top: 8vh !important;
+    background-color: grey !important;
+    float: left !important;
+  }
+
+  .bar3 .console2{
+    float: left !important;
+    margin-top: 8vh !important;
+    margin-left: 2vw !important;
+    font-weight: bold !important;
+    font-family: sans-serif !important;
+    color: darkblue !important;
+    font-size: 3.2vw !important;
+  }
+
+  .bar3 .console3{
+    height: 10vh !important;
+    width: 40vw !important;
+    float: left !important;
+    margin-left: 2vw !important;
+    margin-top: -2vw !important;
+    font-size: 3vw !important;
+    font-family: sans-serif !important;
+    color: darkblue !important;
+  }
+}
+
+@media only screen and (min-width:601px) and (max-width:800px){
+  .scroll{
+    width: 70vw !important;
+    height: 115vh;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 10;
+    margin-left: 15vw;
+    margin-top: 20vh;
+  }
+
+  .scroll .bar1{
+    flex-basis: 48vh !important;
+    width: 70vw;
+  }
+
+  .bar1 .auth1{
+    height: 11.8vh !important;
+    width: 12.8vw !important;
+    margin-left: 6.7vw !important;
+    margin-top: 8vh !important;
+    background-color: grey !important;
+    float: left !important;
+  }
+
+  .bar1 .auth2{
+    float: left !important;
+    margin-top: 8vh !important;
+    margin-left: 2vw !important;
+    font-weight: bold !important;
+    font-family: sans-serif !important;
+    color: darkblue !important;
+    font-size: 3.2vw !important;
+  }
+
+  .bar1 .auth3{
+    height: 10vh !important;
+    width: 40vw !important;
+    float: left !important;
+    margin-left: 2vw !important;
+    margin-top: -2vw !important;
+    font-size: 3vw !important;
+    font-family: sans-serif !important;
+    color: darkblue !important;
+  }
+
+
+  .scroll .bar2{
+    flex-basis: 48vh !important;
+    margin-left: 0vw;
+    width: 70vw;
+  }
+
+  .bar2 .member1{
+    height: 11.8vh !important;
+    width: 12.8vw !important;
+    margin-left: 6.7vw !important;
+    margin-top: 8vh !important;
+    background-color: grey !important;
+    float: left !important;
+  }
+
+  .bar2 .member2{
+    float: left !important;
+    margin-top: 8vh !important;
+    margin-left: 2vw !important;
+    font-weight: bold !important;
+    font-family: sans-serif !important;
+    color: darkblue !important;
+    font-size: 3.2vw !important;
+  }
+
+  .bar2 .member3{
+    height: 10.9vh !important;
+    width: 40vw !important;
+    float: left !important;
+    margin-left: 2vw !important;
+    margin-top: -2vw !important;
+    font-size: 3vw !important;
+    font-family: sans-serif !important;
+    color: darkblue !important;
+  }
+
+  .scroll .bar3{
+    flex-basis: 48vh !important;
+    width: 70vw;
+  }
+
+  .bar3 .console1{
+    height: 11.8vh !important;
+    width: 12.8vw !important;
+    margin-left: 6.7vw !important;
+    margin-top: 8vh !important;
+    background-color: grey !important;
+    float: left !important;
+  }
+
+  .bar3 .console2{
+    float: left !important;
+    margin-top: 8vh !important;
+    margin-left: 2vw !important;
+    font-weight: bold !important;
+    font-family: sans-serif !important;
+    color: darkblue !important;
+    font-size: 3.2vw !important;
+  }
+
+  .bar3 .console3{
+    height: 10vh !important;
+    width: 40vw !important;
+    float: left !important;
+    margin-left: 2vw !important;
+    margin-top: -2vw !important;
+    font-size: 3vw !important;
+    font-family: sans-serif !important;
+    color: darkblue !important;
+  }
+
+}
+
 @media only screen and  (min-width:481px) and (max-width:600px){
   .scroll{
     width: 70vw !important;
-    height: 85vh;
+    height: 90vh;
     flex-direction: column;
     align-items: center;
     flex-shrink: 10;
     margin-left: 15vw;
     margin-top: 2vh;
+    position: relative;
+    top: 70px;
   }
+
+  .scroll .bar1{
+    flex-basis: 48vh !important;
+    width: 70vw;
+  }
+
+  .bar1 .auth1{
+    height: 11.8vh !important;
+    width: 12.8vw !important;
+    margin-left: 6.7vw !important;
+    margin-top: 8vh !important;
+    background-color: grey !important;
+    float: left !important;
+  }
+
+  .bar1 .auth2{
+    float: left !important;
+    margin-top: 8vh !important;
+    margin-left: 2vw !important;
+    font-weight: bold !important;
+    font-family: sans-serif !important;
+    color: darkblue !important;
+    font-size: 4vw !important;
+  }
+
+  .bar1 .auth3{
+    height: 10vh !important;
+    width: 40vw !important;
+    float: left !important;
+    margin-left: 2vw !important;
+    margin-top: -2vw !important;
+    font-size: 3.4vw !important;
+    font-family: sans-serif !important;
+    color: darkblue !important;
+  }
+
+  .scroll .bar2{
+    flex-basis: 48vh !important;
+    width: 70vw;
+  }
+
+  .bar2 .member1{
+    height: 11.8vh !important;
+    width: 12.8vw !important;
+    margin-left: 6.7vw !important;
+    margin-top: 8vh !important;
+    background-color: grey !important;
+    float: left !important;
+  }
+
+  .bar2 .member2{
+    float: left !important;
+    margin-top: 8vh !important;
+    margin-left: 2vw !important;
+    font-weight: bold !important;
+    font-family: sans-serif !important;
+    color: darkblue !important;
+    font-size: 4vw !important;
+  }
+
+  .bar2 .member3{
+    height: 10.9vh !important;
+    width: 40vw !important;
+    float: left !important;
+    margin-left: 2vw !important;
+    margin-top: -2vw !important;
+    font-size: 3.4vw !important;
+    font-family: sans-serif !important;
+    color: darkblue !important;
+  }
+
+
+  .scroll .bar3{
+    flex-basis: 48vh !important;
+    width: 70vw;
+  }
+
+  .bar3 .console1{
+    height: 11.8vh !important;
+    width: 12.8vw !important;
+    margin-left: 6.7vw !important;
+    margin-top: 8vh !important;
+    background-color: grey !important;
+    float: left !important;
+  }
+
+  .bar3 .console2{
+    float: left !important;
+    margin-top: 8vh !important;
+    margin-left: 2vw !important;
+    font-weight: bold !important;
+    font-family: sans-serif !important;
+    color: darkblue !important;
+    font-size: 4vw !important;
+  }
+
+  .bar3 .console3{
+    height: 10vh !important;
+    width: 40vw !important;
+    float: left !important;
+    margin-left: 2vw !important;
+    margin-top: -2vw !important;
+    font-size: 3.4vw !important;
+    font-family: sans-serif !important;
+    color: darkblue !important;
+  }
+
 }
 
 @media only screen and  (max-width:480px){
@@ -509,15 +1075,15 @@ margin-left: 84vw !important;
 }
 
 .scroll .bar1{
-  flex-basis: 240px;
+  flex-basis: 250px ;
 }
 
 .scroll .bar2{
-  flex-basis: 230px;
+  flex-basis: 250px;
 }
 
 .scroll .bar3{
-  flex-basis: 280px;
+  flex-basis: 300px;
 }
 
 .bar1 .auth1{
@@ -540,7 +1106,7 @@ margin-left: 84vw !important;
 
 .bar1 .auth3{
   height: 50px;
-  width: 130px;
+  width: 150px;
   float: left;
   margin-left: 10px;
   margin-top: -10px;
@@ -569,7 +1135,7 @@ margin-left: 84vw !important;
 
 .bar2 .member3{
   height: 50px;
-  width: 130px;
+  width: 150px;
   float: left;
   margin-left: 10px;
   margin-top: -10px;
@@ -598,7 +1164,7 @@ margin-left: 84vw !important;
 
 .bar3 .console3{
   height: 50px;
-  width: 130px;
+  width: 150px;
   float: left;
   margin-left: 10px;
   margin-top: -10px;
@@ -633,6 +1199,357 @@ margin-left: 84vw !important;
 
 /*responsive part*/
 
+
+@media only screen and (min-width:601px) and (max-width:1024px){
+  .grids{
+      width:95vw;
+      height: auto;
+      display: grid;
+      grid-template-areas: "a"
+                           "b"
+                           "c"
+                           "d"
+                           "e"
+                           "f"
+                           "g"
+                           "h"
+                           "i";
+      grid-template-columns: 65vh;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      margin-left: 2vw;
+      margin-top: 60vh !important;
+      margin-right: 0vw;
+  }
+
+  .grids .box1 {
+      grid-area: a;
+      width: 85%;
+      margin-left: 37.5vw !important;
+  }
+
+  .grids .box1 .par1 {
+      height: 5vh !important;
+      width: 6vw !important;
+      border: 1px solid blue;
+      margin-left: 2vw !important;
+      float:left;
+
+  }
+
+
+  .grids .box1 .a1 {
+      float: left;
+      margin-top: 3vh !important;
+      margin-left: 2vw !important;
+      font-family: sans-serif;
+      color: black;
+      font-size: 1.7vw !important;
+  }
+
+  .grids .box1 .sec1 {
+      height: auto;
+      width: 54vw !important;
+      margin-left: 2vw !important;
+      margin-top: 9vh !important;
+      font-family: sans-serif;
+      color: black;
+      font-size: 1.1rem !important;
+  }
+
+  /*Box 1 Code Ends Here */
+
+  .grids .box4 {
+      grid-area: b;
+      width: 85%;
+  }
+
+    .grids .box4 .par4 {
+        height: 5vh !important;
+        width: 6vw !important;
+        border: 1px solid blue;
+        margin-left: 2vw !important;
+        float:left;
+    }
+
+    .grids .box4 .a4 {
+        float: left;
+        margin-top: 3vh !important;
+        margin-left: 2vw !important;
+        font-family: sans-serif;
+        color: black;
+        font-size: 1.5vw !important;
+    }
+
+    .grids .box4 .sec4 {
+        height: auto;
+        width: 54vw !important;
+        margin-left: 2vw !important;
+        margin-top: 9vh !important;
+        font-family: sans-serif;
+        color: black;
+        font-size: 1.1rem !important;
+    }
+
+    /*Box 4 Code Ends Here */
+
+
+  .grids .box7 {
+      grid-area: c;
+      width: 85%;
+      margin-left: 37.5vw !important;
+  }
+
+      .grids .box7 .par7 {
+          height: 5vh !important;
+          width: 6vw !important;
+          border: 1px solid blue;
+          margin-left: 2vw !important;
+          float:left;
+      }
+
+      .grids .box7 .a7 {
+          float: left;
+          margin-top: 3vh !important;
+          margin-left: 2vw !important;
+          font-family: sans-serif;
+          color: black;
+          font-size: 1.7vw !important;
+      }
+
+      .grids .box7 .sec7 {
+          height: auto;
+          width: 54vw !important;
+          margin-left: 2vw !important;
+          margin-top: 9vh !important;
+          font-family: sans-serif;
+          color: black;
+          font-size: 1.1rem !important;
+      }
+
+/*Box 7 Code Ends Here */
+
+  .grids .box2 {
+      grid-area: d;
+      width: 85%;
+      margin-left: 0px !important;
+  }
+
+      .grids .box2 .par2 {
+          height: 5vh !important;
+          width: 6vw !important;
+          border: 1px solid blue;
+          margin-left: 2vw !important;
+          float:left;
+      }
+
+
+      .grids .box2 .a2 {
+          float: left;
+          margin-top: 3vh !important;
+          margin-left: 2vw !important;
+          font-family: sans-serif;
+          color: black;
+          font-size: 1.7vw !important;
+      }
+
+      .grids .box2 .sec2 {
+          height: auto;
+          width: 54vw !important;
+          margin-left: 2vw !important;
+          margin-top: 9vh !important;
+          font-family: sans-serif;
+          color: black;
+          font-size: 1.1rem !important;
+      }
+
+      /*Box 2 Code Ends Here */
+
+
+  .grids .box5 {
+      grid-area: e;
+      width: 85%;
+      margin-left: 37.5vw !important;
+  }
+
+      .grids .box5 .par5 {
+          height: 5vh !important;
+          width: 6vw !important;
+          border: 1px solid blue;
+          margin-left: 2vw !important;
+          float:left;
+      }
+
+      .grids .box5 .a5 {
+          float: left;
+          margin-top: 3vh !important;
+          margin-left: 2vw !important;
+          font-family: sans-serif;
+          color: black;
+          font-size: 1.7vw !important;
+      }
+
+      .grids .box5 .sec5 {
+          height: auto;
+          width: 54vw !important;
+          margin-left: 2vw !important;
+          margin-top: 9vh !important;
+          font-family: sans-serif;
+          color: black;
+          font-size: 1.1rem !important;
+      }
+
+      /*Box 5 Code Ends Here */
+
+
+  .grids .box8 {
+      grid-area: f  ;
+      width: 85%;
+      margin-left: 0px !important;
+  }
+
+      .grids .box8 .par8 {
+          height: 5vh !important;
+          width: 6vw !important;
+          border: 1px solid blue;
+          margin-left: 2vw !important;
+          float:left;
+      }
+
+
+      .grids .box8 .a8 {
+          float: left;
+          margin-top: 3vh !important;
+          margin-left: 2vw !important;
+          font-family: sans-serif;
+          color: black;
+          font-size: 1.7vw !important;
+      }
+
+      .grids .box8 .sec8 {
+          height: auto;
+          width: 54vw !important;
+          margin-left: 2vw !important;
+          margin-top: 9vh !important;
+          font-family: sans-serif;
+          color: black;
+          font-size: 1.1rem !important;
+      }
+
+      /*Box 8 Code Ends Here */
+
+
+  .grids .box3 {
+      grid-area: g ;
+      width: 85%;
+      margin-left: 37.5vw !important;
+  }
+
+      .grids .box3 .par3 {
+          height: 5vh !important;
+          width: 6vw !important;
+          border: 1px solid blue;
+          margin-left: 2vw !important;
+          margin-left: 2vw !important;
+          float:left;
+      }
+
+
+      .grids .box3 .a3 {
+          float: left;
+          margin-top: 3vh !important;
+          font-family: sans-serif;
+          color: black;
+          font-size: 1.7vw !important;
+      }
+
+      .grids .box3 .sec3 {
+          height: auto;
+          width: 54vw !important;
+          margin-left: 2vw !important;
+          margin-top: 9vh !important;
+          font-family: sans-serif;
+          color: black;
+          font-size: 1.1rem !important;
+      }
+
+      /*Box 3 Code Ends Here */
+
+
+  .grids .box6 {
+      grid-area: h  ;
+      width: 85%;
+      margin-left: 0px !important;
+  }
+
+
+      .grids .box6 .par6 {
+          height: 5vh !important;
+          width: 6vw !important;
+          border: 1px solid blue;
+          margin-left: 2vw !important;
+          float:left;
+      }
+
+
+      .grids .box6 .a6 {
+          float: left;
+          margin-top: 3vh !important;
+          margin-left: 2vw !important;
+          font-family: sans-serif;
+          color: black;
+          font-size: 1.7vw !important;
+      }
+
+      .grids .box6 .sec6 {
+          height: auto;
+          width: 54vw !important;
+          margin-left: 2vw !important;
+          margin-top: 9vh !important;
+          font-family: sans-serif;
+          color: black;
+          font-size: 1.1rem !important;
+      }
+
+      /*Box 6 Code Ends Here */
+
+  .grids .box9 {
+      grid-area: i  ;
+      width: 85%;
+      margin-left: 37.5vw !important;
+  }
+
+      .grids .box9 .par9 {
+          height: 5vh !important;
+          width: 6vw !important;
+          border: 1px solid blue;
+          margin-left: 2vw !important;
+          float:left;
+      }
+
+
+      .grids .box9 .a9 {
+          float: left;
+          margin-top: 3vh !important;
+          margin-left: 2vw !important;
+          font-family: sans-serif;
+          color: black;
+          font-size: 1.7vw !important;
+      }
+
+      .grids .box9 .sec9 {
+          height: auto;
+          width: 54vw !important;
+          margin-left: 2vw !important;
+          margin-top: 9vh !important;
+          font-family: sans-serif;
+          color: black;
+          font-size: 1.1rem !important;
+      }
+      /*Box 9 Code Ends Here */
+}
+
+
+
 @media only screen and (max-width:600px){
   .grids{
       width:95vw;
@@ -650,7 +1567,7 @@ margin-left: 84vw !important;
       grid-template-columns: 65vh;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
       margin-left: 2vw;
-      margin-top: 90vh !important;
+      margin-top: 100vh !important;
       margin-right: 0vw;
   }
 
@@ -710,7 +1627,7 @@ margin-left: 84vw !important;
         margin-left: 2vw !important;
         font-family: sans-serif;
         color: black;
-        font-size: 1.3rem !important;
+        font-size: 3vw !important;
     }
 
     .grids .box4 .sec4 {
@@ -1315,6 +2232,81 @@ margin-left: 84vw !important;
 }
 
 /*responsive part*/
+@media only screen and (min-width:601px) and (max-width:1024px){
+  .backstyle {
+      background-color: aliceblue;
+      height: auto !important;
+      width: 100vw !important;
+      margin-top: 12vh;
+  }
+
+  .part2 {
+      width: auto !important;
+      height: 110vh !important;
+      display: grid;
+      grid-template-areas: "left1"
+                           "middle1"
+                           "right1" !important;
+      grid-template-rows: 50vh 6vh 6vh !important;
+      grid-template-columns: 90vw !important;
+      margin-left: 0vw !important;
+      margin-top: 0vw !important;
+  }
+
+  .part2 .grid1 {
+      grid-area: left1;
+      margin-top: 5vh;
+      width:99vw;
+  }
+
+  .grid1 .rating .heading1 {
+    font-size: 2.4vw !important;
+    font-family: sans-serif;
+    color: darkblue;
+    margin-left:33vw !important;
+  }
+
+  .part2 .grid1 .sec1 {
+    text-align: center;
+    font-size: 6vw !important;
+  }
+
+  .part2 .grid1 .sec2 {
+      font-family: sans-serif;
+      font-size: 3.3vw !important;
+      color: darkblue;
+      text-align: center;
+  }
+
+  .part2 .grid2 {
+      grid-area: middle1;
+      margin-top: 0vh !important;
+  }
+
+  .grid2 .btn3 {
+    width: 35vw !important;
+    height: 8vh !important;
+    margin-top: 30vh !important;
+    margin-left: 32vw !important;
+    font-size: 3.3vw !important ;
+  }
+
+  .part2 .grid3 {
+      grid-area: right1;
+      margin-top: 0vh !important;
+      margin-left: 9.4vw !important;
+  }
+
+  .grid3 .btn4 {
+    width: 41vw !important;
+    height: 8vh !important;
+    margin-top: 38vh !important;
+    margin-left: 19vw !important;
+    font-size: 3.5vw !important;
+  }
+}
+
+
 
 @media only screen and (max-width:600px){
   .backstyle {
@@ -1347,7 +2339,7 @@ margin-left: 84vw !important;
     font-size: 2.4vw !important;
     font-family: sans-serif;
     color: darkblue;
-    margin-left:34vw !important;
+    margin-left:30vw !important;
   }
 
   .part2 .grid1 .sec1 {
@@ -1370,7 +2362,7 @@ margin-left: 84vw !important;
   .grid2 .btn3 {
     width: 35vw !important;
     height: 8vh !important;
-    margin-top: 0vh !important;
+    margin-top: 5vh !important;
     margin-left: 32vw !important;
     font-size: 3.3vw !important ;
   }
@@ -1495,6 +2487,38 @@ margin-left: 84vw !important;
 
 /*responsive part*/
 
+@media only screen and (min-width:601px) and (max-width:1024px) {
+  .box {
+    width: 99vw;
+    height: auto;
+    margin-top: 30vh;
+    margin-left: 0vw;
+  }
+
+  .box .heading {
+      text-align: center;
+      font-size: 6.5vw !important;
+      font-family: sans-serif;
+      font-weight: bold;
+      color:darkblue;
+  }
+
+  .box .middle {
+      text-align: center;
+      margin-top: 0vh !important;
+      font-family: sans-serif;
+      color: darkblue;
+      font-size: 3.5vw !important;
+  }
+
+  .box .end{
+      text-align: center;
+      font-family: sans-serif;
+      color: darkblue;
+      font-size: 2.7vw !important;
+  }
+}
+
 @media only screen and (max-width:600px) {
   .box {
     width: 99vw;
@@ -1525,11 +2549,354 @@ margin-left: 84vw !important;
       color: darkblue;
       font-size: 2.7vw !important;
   }
-
 }
 
 /*Responsivenessfor Grids*/
- @media only screen and (max-width: 600px)
+@media only screen and (min-width:601px) and (max-width:1024px)
+{
+ .grid4 {
+     width: 99vw !important;
+     height: auto !important;
+     display: grid !important;
+     grid-template-areas: "left1"
+                          "right1"
+                          "left2"
+                          "right2"
+                          "left3"
+                          "right3"
+                          "left4"
+                          "right4" !important;
+     grid-template-columns: 99vw !important;
+     grid-template-rows: 42vh 42vh 42vh 42vh 42vh 42vh 42vh 42vh !important;
+     margin-left: 0vw !important;
+     margin-top: 40vh !important;
+ }
+
+ /*box1 starts */
+
+ .box11 {
+     grid-area:left1;
+     width:99vw !important;
+     height: 42vh !important;
+ }
+
+ .box11 .logo1 {
+     height: 32vh !important;
+     width: 22vw !important;
+     border: 1px solid blue;
+     margin-left: 6vw !important;
+     margin-top: 13vh !important;
+     margin-right: 3vw !important;
+     float:left;
+
+ }
+
+ .box11 .txt1 {
+
+     margin-top: 12vh !important;
+     font-weight: bold;
+     font-family: sans-serif;
+     color: darkblue;
+     font-size: 4vw !important;
+ }
+
+ .box11 .info1{
+     font-family: sans-serif;
+     color: darkblue;
+     font-size: 2vw !important;
+     text-align: left;
+     width:70vw !important;
+     margin-left: 28vw !important;
+     height: 20vh !important;
+ }
+
+ /*box1 ends */
+
+ /*box2 starts */
+
+ .box22 {
+     grid-area:right1;
+     width:99vw !important;
+     height: 42vh !important;
+     margin-top: 8vh !important;
+ }
+
+ .box22 .logo2 {
+     height: 32vh !important;
+     width: 22vw !important;
+     border: 1px solid blue;
+     margin-left: 6vw !important;
+     margin-top: 13vh !important;
+     margin-right: 3vw !important;
+     float:left;
+
+ }
+
+ .box22 .txt2 {
+
+     margin-top: 12vh !important;
+     font-weight: bold;
+     font-family: sans-serif;
+     color: darkblue;
+     font-size: 4vw !important;
+ }
+
+ .box22 .info2{
+     font-family: sans-serif;
+     color: darkblue;
+     font-size: 2vw !important;
+     text-align: left;
+     width:70vw !important;
+     margin-left: 28vw !important;
+     height: 20vh !important;
+ }
+
+ /*box2 ends */
+
+ /*box3 starts */
+
+ .box33 {
+     grid-area:left2;
+     width:99vw !important;
+     height: 42vh !important;
+     margin-top: 17vh !important;
+ }
+
+ .box33 .logo3 {
+     height: 32vh !important;
+     width: 22vw !important;
+     border: 1px solid blue;
+     margin-left: 6vw !important;
+     margin-top: 13vh !important;
+     margin-right: 3vw !important;
+     float:left;
+
+ }
+
+ .box33 .txt3 {
+
+     margin-top: 12vh !important;
+     font-weight: bold;
+     font-family: sans-serif;
+     color: darkblue;
+     font-size: 4vw !important;
+ }
+
+ .box33 .info3{
+     font-family: sans-serif;
+     color: darkblue;
+     font-size: 2vw !important;
+     text-align: left;
+     width:70vw !important;
+     margin-left: 28vw !important;
+     height: 20vh !important;
+ }
+
+ /*box3 ends */
+ /*box4 starts */
+
+ .box44 {
+     grid-area:right2;
+     width:99vw !important;
+     height: 42vh !important;
+     margin-top: 22vh !important;
+ }
+
+ .box44 .logo4 {
+     height: 32vh !important;
+     width: 22vw !important;
+     border: 1px solid blue;
+     margin-left: 6vw !important;
+     margin-top: 13vh !important;
+     margin-right: 3vw !important;
+     float:left;
+
+ }
+
+ .box44 .txt4 {
+     margin-top: 12vh !important;
+     font-weight: bold;
+     font-family: sans-serif;
+     color: darkblue;
+     font-size: 4vw !important;
+ }
+
+ .box44 .info4{
+     font-family: sans-serif;
+     color: darkblue;
+     font-size: 2vw !important;
+     text-align: left;
+     width:70vw !important;
+     margin-left: 28vw !important;
+     height: 20vh !important;
+ }
+
+ /*box4 ends */
+ /*box5 starts */
+
+ .box55 {
+     grid-area:left3;
+     width:99vw !important;
+     height: 42vh !important;
+     margin-top:25vh !important;
+ }
+
+ .box55 .logo5 {
+     height: 32vh !important;
+     width: 22vw !important;
+     border: 1px solid blue;
+     margin-left: 6vw !important;
+     margin-top: 13vh !important;
+     margin-right: 3vw !important;
+     float:left;
+
+ }
+
+ .box55 .txt5 {
+
+     margin-top: 12vh !important;
+     font-weight: bold;
+     font-family: sans-serif;
+     color: darkblue;
+     font-size: 4vw !important;
+ }
+
+ .box55 .info5{
+     font-family: sans-serif;
+     color: darkblue;
+     font-size: 2vw !important;
+     text-align: left;
+     width:70vw !important;
+     margin-left: 28vw !important;
+     height: 20vh !important;
+ }
+
+ /*box5 ends */
+
+ /*box6 starts */
+
+ .box66 {
+     grid-area:right3;
+     width:99vw !important;
+     height: 42vh !important;
+     margin-top: 28vh !important;
+ }
+
+ .box66 .logo6 {
+     height: 32vh !important;
+     width: 22vw !important;
+     border: 1px solid blue;
+     margin-left: 6vw !important;
+     margin-top: 13vh !important;
+     margin-right: 3vw !important;
+     float:left;
+
+ }
+
+ .box66 .txt6{
+
+     margin-top: 12vh !important;
+     font-weight: bold;
+     font-family: sans-serif;
+     color: darkblue;
+     font-size: 4vw !important;
+ }
+
+ .box66 .info6{
+     font-family: sans-serif;
+     color: darkblue;
+     font-size: 2vw !important;
+     text-align: left;
+     width:70vw !important;
+     margin-left: 28vw !important;
+     height: 20vh !important;
+ }
+
+ /*box6 ends */
+ /*box7 starts */
+
+ .box77 {
+     grid-area:left4;
+     width:99vw !important;
+     height: 42vh !important;
+     margin-top: 31vh !important;
+ }
+
+
+ .box77 .logo7 {
+     height: 32vh !important;
+     width: 22vw !important;
+     border: 1px solid blue;
+     margin-left: 6vw !important;
+     margin-top: 13vh !important;
+     margin-right: 3vw !important;
+     float:left;
+
+ }
+
+ .box77 .txt7{
+
+     margin-top: 12vh !important;
+     font-weight: bold;
+     font-family: sans-serif;
+     color: darkblue;
+     font-size: 4vw !important;
+ }
+
+ .box77 .info7{
+     font-family: sans-serif;
+     color: darkblue;
+     font-size: 2vw !important;
+     text-align: left;
+     width:70vw !important;
+     margin-left: 28vw !important;
+     height: 20vh !important;
+ }
+
+ /*box7 ends */
+ /*box8 starts */
+
+ .box88 {
+     grid-area:right4;
+     width:99vw !important;
+     height: 42vh !important;
+     margin-top: 34vh !important;
+ }
+
+ .box88 .logo8 {
+     height: 32vh !important;
+     width: 22vw !important;
+     border: 1px solid blue;
+     margin-left: 6vw !important;
+     margin-top: 13vh !important;
+     margin-right: 3vw !important;
+     float:left;
+
+ }
+
+ .box88 .txt8 {
+
+     margin-top: 12vh !important;
+     font-weight: bold;
+     font-family: sans-serif;
+     color: darkblue;
+     font-size: 4vw !important;
+ }
+
+ .box88 .info8{
+     font-family: sans-serif;
+     color: darkblue;
+     font-size: 2vw !important;
+     text-align: left;
+     width:70vw !important;
+     margin-left: 28vw !important;
+     height: 20vh !important;
+ }
+ /*box8 ends */
+}
+
+
+ @media only screen and (max-width:600px)
  {
   .grid4 {
       width: 99vw !important;
@@ -1570,7 +2937,7 @@ margin-left: 84vw !important;
 
   .box11 .txt1 {
 
-      margin-top: 12vh !important;
+      margin-top: 11vh !important;
       font-weight: bold;
       font-family: sans-serif;
       color: darkblue;
@@ -1580,7 +2947,7 @@ margin-left: 84vw !important;
   .box11 .info1{
       font-family: sans-serif;
       color: darkblue;
-      font-size: 3vw !important;
+      font-size: 2.5vw !important;
       text-align: left;
       width:70vw !important;
       margin-left: 28vw !important;
@@ -1610,7 +2977,7 @@ margin-left: 84vw !important;
 
   .box22 .txt2 {
 
-      margin-top: 12vh !important;
+      margin-top: 11vh !important;
       font-weight: bold;
       font-family: sans-serif;
       color: darkblue;
@@ -1620,7 +2987,7 @@ margin-left: 84vw !important;
   .box22 .info2{
       font-family: sans-serif;
       color: darkblue;
-      font-size: 3vw !important;
+      font-size: 2.5vw !important;
       text-align: left;
       width:70vw !important;
       margin-left: 28vw !important;
@@ -1650,7 +3017,7 @@ margin-left: 84vw !important;
 
   .box33 .txt3 {
 
-      margin-top: 12vh !important;
+      margin-top: 11vh !important;
       font-weight: bold;
       font-family: sans-serif;
       color: darkblue;
@@ -1660,7 +3027,7 @@ margin-left: 84vw !important;
   .box33 .info3{
       font-family: sans-serif;
       color: darkblue;
-      font-size: 3vw !important;
+      font-size: 2.5vw !important;
       text-align: left;
       width:70vw !important;
       margin-left: 28vw !important;
@@ -1688,7 +3055,7 @@ margin-left: 84vw !important;
   }
 
   .box44 .txt4 {
-      margin-top: 12vh !important;
+      margin-top: 11vh !important;
       font-weight: bold;
       font-family: sans-serif;
       color: darkblue;
@@ -1698,7 +3065,7 @@ margin-left: 84vw !important;
   .box44 .info4{
       font-family: sans-serif;
       color: darkblue;
-      font-size: 3vw !important;
+      font-size: 2.5vw !important;
       text-align: left;
       width:70vw !important;
       margin-left: 28vw !important;
@@ -1727,7 +3094,7 @@ margin-left: 84vw !important;
 
   .box55 .txt5 {
 
-      margin-top: 12vh !important;
+      margin-top: 11vh !important;
       font-weight: bold;
       font-family: sans-serif;
       color: darkblue;
@@ -1737,7 +3104,7 @@ margin-left: 84vw !important;
   .box55 .info5{
       font-family: sans-serif;
       color: darkblue;
-      font-size: 3vw !important;
+      font-size: 2.5vw !important;
       text-align: left;
       width:70vw !important;
       margin-left: 28vw !important;
@@ -1767,7 +3134,7 @@ margin-left: 84vw !important;
 
   .box66 .txt6{
 
-      margin-top: 12vh !important;
+      margin-top: 11vh !important;
       font-weight: bold;
       font-family: sans-serif;
       color: darkblue;
@@ -1777,7 +3144,7 @@ margin-left: 84vw !important;
   .box66 .info6{
       font-family: sans-serif;
       color: darkblue;
-      font-size: 3vw !important;
+      font-size: 2.5vw !important;
       text-align: left;
       width:70vw !important;
       margin-left: 28vw !important;
@@ -1806,7 +3173,7 @@ margin-left: 84vw !important;
 
   .box77 .txt7{
 
-      margin-top: 12vh !important;
+      margin-top: 11vh !important;
       font-weight: bold;
       font-family: sans-serif;
       color: darkblue;
@@ -1816,7 +3183,7 @@ margin-left: 84vw !important;
   .box77 .info7{
       font-family: sans-serif;
       color: darkblue;
-      font-size: 3vw !important;
+      font-size: 2.5vw !important;
       text-align: left;
       width:70vw !important;
       margin-left: 28vw !important;
@@ -1845,7 +3212,7 @@ margin-left: 84vw !important;
 
   .box88 .txt8 {
 
-      margin-top: 12vh !important;
+      margin-top: 11vh !important;
       font-weight: bold;
       font-family: sans-serif;
       color: darkblue;
@@ -1855,7 +3222,7 @@ margin-left: 84vw !important;
   .box88 .info8{
       font-family: sans-serif;
       color: darkblue;
-      font-size: 3vw !important;
+      font-size: 2.5vw !important;
       text-align: left;
       width:70vw !important;
       margin-left: 28vw !important;
@@ -1863,11 +3230,7 @@ margin-left: 84vw !important;
   }
 
   /*box8 ends */
-
-
 }
-
-
 
 .box .heading {
     text-align: center;
@@ -2235,6 +3598,54 @@ margin-left: 84vw !important;
 }
 
 /*responsive part*/
+@media only screen and (min-width:601px) and (max-width:1024px) {
+  .ad2 {
+    width:99vw;
+    height: auto;
+    margin-left: 0vw;
+    margin-top: 80vh;
+  }
+
+  .ad2 .start1 {
+      text-align: center;
+      font-size: 6vh !important;
+      font-family: sans-serif;
+      color: darkblue;
+      font-weight: bold;
+  }
+
+  .ad2 .mid1 {
+      text-align: center;
+      font-size: 2.5vw !important;
+      font-family: sans-serif;
+      font-weight: 700;
+      color: darkblue;
+      margin-top: 4vh !important;
+  }
+
+  .ad2 .end1 {
+      width: 45vw !important;
+      height:8vh !important;
+      border: 1px solid blue;
+      margin-left: 27vw !important;
+      margin-top: 20px;
+      background-color: #6666ff;
+      border-radius: 3px;
+      margin-top: 4vh !important;
+      font-size: 3vw !important;
+  }
+
+
+   .rating1 .heading2 {
+    float: left;
+    font-size: 2.2vw !important;
+    font-family: sans-serif;
+    color: darkblue;
+    margin-top: 6vh !important;
+    margin-left: 35vw !important;
+    margin-right: 1.1vw !important;
+  }
+}
 
 @media only screen and (max-width:600px) {
   .ad2 {
@@ -2361,6 +3772,54 @@ margin-left: 84vw !important;
 
 /*responsive part*/
 
+@media only screen and (min-width:601px) and (max-width:1024px) {
+  .outside{
+    width: 99vw !important;
+    height: auto !important;
+    margin-left: 0vw !important;
+    margin-top: 0vh !important;
+  }
+
+  .outside .leftside {
+      width:99vw !important;
+      height: auto !important;
+      margin-top: 40vh !important;
+      margin-left: 0vw !important;
+  }
+
+  .outside .leftside .top1{
+
+    width: 99vw !important;
+    height: auto !important;
+    text-align: center !important;
+    margin-left: 0vw !important;
+    margin-top: 5vh !important;
+    font-size: 7.5vw !important;
+  }
+
+  .outside .leftside .mid1{
+    width: 99vw !important;
+    height: auto !important;
+    margin-left: 0vw !important;
+    text-align: center !important;
+  }
+
+  .outside .leftside .end1{
+    width: 99vw !important;
+    height: auto !important;
+    margin-top: 2vh !important;
+    margin-left: 0vw !important;
+    text-align: center !important;
+  }
+
+  .outside .leftside .btn{
+    margin-left: 26vw !important ;
+    width: 49vw !important;
+    height: 8vh !important ;
+    margin-top: 3vh !important;
+  }
+}
+
 @media only screen and (max-width:600px) {
   .outside{
     width: 99vw !important;
@@ -2480,6 +3939,278 @@ margin-left: 84vw !important;
 }
 
 /*responsive part*/
+@media only screen and (min-width:601px) and (max-width:1024px) {
+  .outside .rightside {
+      display:grid;
+      height: auto !important;
+      width: 85vw !important;
+      grid-template-columns: 38vw 38vw 24vw !important;
+      grid-template-rows: 40vh 40vh !important;
+      grid-column-gap: 8vw !important;
+      grid-row-gap: 5vh !important;
+      margin-top: 15vh !important;
+      margin-left: 7vw !important;
+  }
+
+    .rightside .captcha {
+      margin-left: 1vw !important;
+      grid-row-start: 1;
+      grid-row-end: 3;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      margin-top: 20vh !important;
+      margin-bottom: 29vh !important;
+      border-radius: 1.5vw !important;
+    }
+
+    .captcha .logos1 {
+        width: 25vw !important;
+        height: 17vh !important;
+        margin-top: 1vh !important;
+        margin-left: 5.8vw !important;
+        background-color: floralwhite;
+    }
+
+    .captcha .name1 {
+        width: 34vw !important;
+        height:5vh !important;
+        font-size: 2.2vw !important;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-left: 5.1vw !important;
+        color: white;
+    }
+
+    .captcha .other1 {
+        width: 30vw !important;
+        height: 8vh !important;
+        font-size: 2vw !important;
+        font-family: sans-serif;
+        margin-left: 3.3vw !important;
+        text-align: center;
+        margin-top: -3vh !important;
+        color: white;
+    }
+
+/*code for captcha ends here*/
+/*code for insta starts here*/
+
+.rightside .insta {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 10vh !important;
+    margin-bottom: -4vh !important;
+    border-radius: 1.5vw !important;
+    background-color: coral;
+}
+
+
+.insta .logos2 {
+    width: 25vw !important;
+    height: 17vh !important;
+    margin-top: 1vh !important;
+    margin-left: 6.5vw !important;
+    background-color: floralwhite;
+}
+
+.insta .name2 {
+    width: 15vw !important;
+    height:5vh !important;
+    font-size: 2.5vw !important;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 11.5vw !important;
+    margin-top: -1vh !important;
+    color: white;
+}
+
+.insta .other2 {
+    width: 30vw !important;
+    height: 8vh !important;
+    font-size: 2vw !important;
+    font-family: sans-serif;
+    margin-left: 7vw !important;
+    margin-top: -1vw !important;
+    color: white;
+}
+/*code for insta ends here*/
+/*Code For Woo Starts Here*/
+  .rightside .woo {
+      grid-row-start: 3 !important;
+      grid-row-end: 4 !important;
+      grid-column-start: 1 !important;
+      grid-column-end: 2 !important;
+      margin-top: -27vh !important;
+      margin-bottom: 23vh !important;
+      border-radius: 1.2vh !important;
+      background-color: #6666ff;
+      margin-left: 5px !important;
+  }
+
+  .woo .logos4 {
+      width: 25vw !important;
+      height: 17vh !important;
+      margin-top: 1vh !important;
+      margin-left: 6vw !important;
+      background-color: floralwhite;
+  }
+
+  .woo .name4 {
+      width: 30vw !important;
+      height: 5vh !important;
+      font-size: 2.5vw !important;
+      font-weight: bold;
+      font-family: sans-serif;
+      margin-left: 6vw !important;
+      margin-top: -1vh !important;
+      color: white;
+  }
+
+  .woo .other4 {
+      width: 28vw !important;
+      height: 7vh !important;
+      font-size: 2vw !important ;
+      font-family: sans-serif;
+      text-align: center;
+      margin-left: 4vw !important;
+      margin-top: -3vh !important;
+      color: white;
+  }
+
+/*code for woo ends here*/
+/*Code For Stripe Starts Here*/
+  .rightside .stripe {
+      grid-row-start: 5 !important;
+      grid-row-end: 6 !important;
+      grid-column-start: 1 !important;
+      grid-column-end: 2!important;
+      margin-top: -42vh !important;
+      margin-left: 1vw !important;
+      border-radius: 1.5vw !important;
+      background-color: #6666ff;
+  }
+
+  .stripe .logos3 {
+      width: 25vw !important;
+      height: 17vh !important;
+      margin-top: 1vh !important;
+      margin-left: 6vw !important;
+      background-color: floralwhite;
+  }
+
+  .stripe .name3 {
+      width: 10vw !important;
+      height: 4vh !important;
+      font-size: 2.5vw !important;
+      font-weight: bold;
+      font-family: sans-serif;
+      margin-left: 14vw !important;
+      margin-top: -1vh !important;
+      color: white;
+  }
+
+  .stripe .other3 {
+      width: 32vw !important;
+      height: 8vh !important;
+      font-size: 2vw !important;
+      font-family: sans-serif;
+      text-align: center;
+      margin-left: 2.2vw !important;
+      margin-top: -3vh !important;
+      color: white;
+  }
+
+/*code for stripe ends here*/
+/*code for chimp starts here*/
+
+.rightside .chimp {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 6.5vh !important;
+    border-radius: 1.4vw !important;
+    background-color: darkgoldenrod;
+}
+
+.chimp .logos5 {
+    width: 26vw !important;
+    height: 17vh !important;
+    margin-top: 1vh !important;
+    margin-left: 6vw !important;
+    background-color: floralwhite;
+}
+
+.chimp .name5 {
+    width: 14vw !important;
+    height: 4.5vh !important;
+    font-size: 2.5vw !important;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 12vw !important;
+    margin-top: -1vh !important;
+    color: white;
+}
+
+.chimp .other5 {
+    width: 31vw !important;
+    height: 8vh !important;
+    font-size: 1.9vw !important;
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 3.3vw !important;
+    margin-top: -2.5vh !important;
+    color: white;
+}
+/*code for chimp ends here*/
+
+
+  .rightside .slack {
+      grid-row-start: 4 !important;
+      grid-row-end: 5 !important;
+      grid-column-start: 2 !important;
+      grid-column-end: 3 !important;
+      margin-top: -28vh !important;
+      margin-bottom: 13vh !important;
+      border-radius: 1.3vw !important;
+      background-color: #d500ff !important;
+  }
+
+  .slack .logos6 {
+      width: 26vw !important;
+      height: 17vh !important;
+      margin-top: 1vh !important;
+      margin-left: 6vw !important;
+      background-color: floralwhite;
+  }
+
+  .slack .name6 {
+      width: 10vw !important;
+      height: 4vh !important;
+      font-size: 2.5vw !important;
+      font-weight: bold;
+      font-family: sans-serif;
+      margin-left: 15vw !important;
+      margin-top: -1vh !important;
+      color: white;
+  }
+
+  .slack .other6 {
+      width: 29vw !important;
+      height: 8vh !important;
+      font-size: 2vw !important;
+      font-family: sans-serif;
+      text-align: center;
+      margin-left: 4.5vw !important;
+      margin-top: -3vh !important;
+      color: white;
+  }
+  /*code for Slack ends here*/
+}
+
+
 
 @media only screen and (max-width:600px) {
   .outside .rightside {
@@ -3042,6 +4773,56 @@ margin-left: 84vw !important;
 }
 
 /*responsive part*/
+@media only screen and (min-width:601px) and (max-width:1024px){
+  .newsletter {
+      display: block;
+      width: 98vw !important;
+      height: 80vh !important;
+      border-radius: 6vw;
+      margin-left: 1vw;
+      margin-top: 300vh !important;
+      background-color: aliceblue;
+  }
+
+  .newsletter .updates {
+    height: auto !important;
+    width: 92vw !important;
+    margin-left: 1.1vw !important;
+    margin-top: 7vh !important;
+    font-size: 7.5vw !important;
+    padding: 2vw !important;
+  }
+
+  .newsletter .unsubscribe {
+    height: 5.5vh !important;
+    width: 75vw !important;
+    margin-left: 8vw !important;
+    margin-top: 0vh !important;
+    font-size: 3.5vw !important;
+  }
+
+  .newsletter .form1 #email {
+      height: 7vh !important;
+      width: 60vw !important;
+      margin-left: 7vw !important;
+      background-color: ghostwhite;
+      font-size: 3.5vw !important;
+  }
+
+  .newsletter .form1 .submit {
+      height: 9vh !important;
+      width: 23vw !important;
+      background-color: #6666ff;
+      text-transform: uppercase;
+      color: white;
+      font-weight: bold;
+      margin-top: 10vh !important;
+      margin-left:3.5vw !important;
+      border-radius: 1vw !important;
+      font-size: 3.4vw !important;
+      text-align: center !important;
+  }
+}
 
 @media only screen and (max-width:600px){
   .newsletter {
@@ -3153,6 +4934,38 @@ margin-left: 84vw !important;
 }
 
 /*responsive part*/
+@media only screen and (min-width:601px) and (max-width:1024px) {
+  .outer{
+      width: 100vw !important;
+      height: auto !important;
+      margin-top: 30vh !important;
+      margin-left: 0vw !important;
+  }
+
+  .outer .user{
+      width:100vw !important;
+      height: 16vh !important;
+      margin-left: 0vw !important;
+      margin-top: 4vh !important;
+      font-size: 6vw !important;
+    }
+
+  .outer .user1{
+        width:100vw !important;
+        height: 10vh !important;
+        margin-left: 0vw !important;
+        font-size: 3.5vw !important;
+        margin-top: 14vh !important;
+      }
+
+  .outer .user2{
+          width:100vw !important;
+          height: 8vh !important;
+          margin-left: 0vw !important;
+          margin-top: 10vh !important;
+          font-size: 2.3vw !important;
+      }
+}
 
 @media only screen and (max-width:600px) {
   .outer{
@@ -3231,6 +5044,51 @@ margin-left: 84vw !important;
 }
 
 /*responsive part*/
+@media only screen and (min-width:601px) and (max-width:1024px) {
+  .stripe1 {
+    width: 100vw !important;
+    height:900px !important;
+    margin-left: 0vw !important;
+    margin-top: 20vh !important;
+  }
+
+  .stripe1 .leftbox {
+      width: 98vw !important;
+      height: 60vh !important;
+      margin-left: 1vw !important;
+      border-radius: 2vw !important;
+  }
+
+  .stripe1 .righttext {
+      width: 100vw !important;
+      height: auto !important;
+      margin-top: 0vh !important;
+      margin-left: 0vw !important;
+  }
+
+  .stripe1 .texting1 {
+      width: 100vw !important;
+      height: 10vh !important;
+      margin-top: 12vh !important;
+      color: darkblue;
+      text-align: center;
+      font-size: 4vw !important;
+      margin-left: 0vw !important;
+      font-family: sans-serif;
+
+  }
+
+  .stripe1 .texting2 {
+      width: 100vw !important;
+      height: 15vh !important ;
+      color: darkblue;
+      font-size: 2.8vw !important;
+      margin-left: 0vw !important;
+      text-align: center;
+      font-family: sans-serif;
+      margin-top: 15vh !important;
+  }
+}
 
 @media only screen and (max-width:600px) {
   .stripe1 {
@@ -3324,6 +5182,91 @@ margin-left: 84vw !important;
 }
 
 /*responsive part*/
+
+@media only screen and (min-width:601px) and (max-width:1024px) {
+  .footer {
+      margin-top: -25vh !important;
+      width: 100vw !important;
+      height: auto !important;
+      min-height: 95vh !important;
+      background-color: azure;
+  }
+
+  .imagebox {
+      height: 15vh !important;
+      width: 40vw !important;
+      margin-left: 32vw !important;
+      margin-top: 4vh !important;
+  }
+
+  .topright2{
+      width: 80vw !important;
+      height: 6vh !important;
+      margin-left: 13vw !important;
+      margin-top: 8vh !important;
+  }
+
+  .topright2 .feature1 {
+      float:left;
+      margin-top: 1vh !important;
+      font-weight: bold;
+      color: darkblue;
+      font-family: sans-serif;
+      text-transform: uppercase;
+      font-size:2.7vw !important;
+  }
+
+  .topright2 .extension1 {
+      float:left;
+      margin-left: 8vw !important;
+      margin-top: 1vh !important;
+      font-weight: bold;
+      color: darkblue;
+      font-family: sans-serif;
+      text-transform: uppercase;
+      font-size:2.7vw !important;
+  }
+
+  .topright2 .faq1 {
+      float:left;
+      margin-left: 8vw !important;
+      margin-top: 1vh !important;
+      font-weight: bold;
+      color: darkblue;
+      font-family: sans-serif;
+      text-transform: uppercase;
+      font-size:2.7vw !important;
+  }
+
+  .topright2 .docs1 {
+      float:left;
+      margin-left: 8vw !important;
+      margin-top: 1vh !important;
+      font-weight: bold;
+      color: darkblue;
+      font-family: sans-serif;
+      text-transform: uppercase;
+      font-size:2.7vw !important;
+  }
+
+
+   .a11 {
+      height : 12vh !important;
+      width : 11vw !important;
+      float: left;
+  }
+
+   .b11 {
+      height: 4vh !important;
+      width: 17vw !important;
+      float: left;
+      color: darkblue;
+      font-size: 3.5vw !important;
+      font-family: open-sans;
+      margin-top: 4vh !important;
+      margin-left: 20px !important;
+  }
+}
 
 @media only screen and (max-width:600px) {
   .footer {
@@ -3512,6 +5455,41 @@ margin-left: 84vw !important;
   margin-left: 30px;
 }
 
+@media only screen and (min-width:601px) and (max-width:1024px) {
+
+  .fa {
+    text-decoration: none;
+    margin-top: 6vh !important;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-left: 7vw !important;
+    font-size:3vw !important;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin-left: 7vw !important;
+    font-size:3vw !important;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    margin-left: 32vw !important;
+    font-size:3vw !important;
+  }
+
+  .fa-github {
+    margin-left: 7vw !important;
+    font-size:3.7vw !important;
+  }
+}
+
+
 @media only screen and (max-width:600px) {
 
   .fa {
@@ -3544,7 +5522,6 @@ margin-left: 84vw !important;
     margin-left: 7vw !important;
     font-size:3.7vw !important;
   }
-
 }
 
 /* Twitter */
@@ -3576,6 +5553,67 @@ margin-left: 84vw !important;
 }
 
 /*responsive part*/
+@media only screen and (min-width:601px) and (max-width:1024px) {
+
+  .links {
+    height: 25vh !important;
+    width: 100vw !important;
+  }
+
+  .links .copyright1 {
+    margin-top: 6vh;
+    font-size: 2.4vw !important;
+    margin-left: 0vw !important;
+    width: 100vw !important;
+    height: auto !important;
+    display: block;
+    text-align: center;
+  }
+
+  .links .copyright2 {
+    margin-top: 1vh !important;
+    font-size: 2.4vw !important;
+    margin-left: 0vw !important;
+    width: 100vw !important;
+    height: auto !important;
+    text-align: center;
+    display: block;
+  }
+
+  .links .copyright3 {
+    margin-top: 1vh !important;
+    margin-left: 0vw !important;
+    width: 100vw !important;
+    font-size: 2.4vw !important;
+    height: auto !important;
+    text-align: center;
+    display: block;
+  }
+
+  .links .copyright4 {
+    margin-top: 1vh !important;
+    margin-left: 0vw !important;
+    width: 100vw !important;
+    height: auto !important;
+    font-size: 2.4vw !important;
+    text-align: center;
+    display: block;
+  }
+
+  .links .copyright5 {
+    margin-top: 1vh !important;
+    margin-left: 0vw !important;
+    width: 100vw !important;
+    height: auto !important;
+    text-align: center;
+    display: block;
+    font-size: 2.4vw !important;
+  }
+
+  .links {
+    height: 130px;
+  }
+}
 
 @media only screen and (max-width:600px) {
 
